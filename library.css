@@ -1,0 +1,84 @@
+* 
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body 
+{
+    font-family: sans-serif;
+}
+
+h1
+{
+    margin: auto;
+}
+
+.item1
+{
+    grid-area: item1;
+    display: flex;
+    background: rgb(9, 185, 185);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.name
+{
+    width: 100%;
+    height: 3vh;
+    display: flex;
+    margin: 1rem;
+}
+
+.item2
+{
+    grid-area: item2;
+    border-top: 2px solid rgb(87, 0, 90);
+    background: rgb(3, 167, 131);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.insert
+{
+    padding: 1rem;
+}
+
+.input
+{
+    padding: 1rem;
+}
+.container
+{
+    height: 103vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 3fr;
+    grid-template-areas: 
+        "item1 item1"
+        "item2 item2";
+}
+
+.moja_tabela
+{
+    border-collapse: collapse;
+    border: 1px solid blue;
+}
+
+.col
+{
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+.row
+{
+
+    background: rgb(30, 41, 197);
+}
